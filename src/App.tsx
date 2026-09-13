@@ -45,7 +45,7 @@ type UpdateItem = {
 
 const LS_KEY = 'phadind-support-updates';
 const AUTH_KEY = 'phadind-admin-auth';
-const ADMIN_PWD = 'phadin2026';
+const ADMIN_PWD = 'Mero@Prayas@258#';
 
 const nepDigits: Record<string,string> = {'0':'०','1':'१','2':'२','3':'३','4':'४','5':'५','6':'६','7':'७','8':'८','9':'९'};
 const toNepDigits = (s:string|number) => String(s).split('').map(ch=> nepDigits[ch] ?? ch).join('');
