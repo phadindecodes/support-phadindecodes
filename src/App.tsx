@@ -564,7 +564,7 @@ export default function App() {
             </div>
             <h1 className="text-[32px] md:text-[52px] font-bold leading-[1.05] tracking-[-0.02em] text-slate-900">
               वैदेशिक रोजगार
-              <span className="block text-[#0f3b82]">सहायता केन्द्र</span>
+              <span className="block text-[#0f3b82]">जानकारी विशेष</span>
             </h1>
             <p className="mt-4 text-[15px] md:text-[18px] leading-[1.6] text-slate-600 max-w-[600px]">
               श्रम स्वीकृति, संस्थागत माग, र लट नम्बर सजिलै जाँच गर्नुहोस् — आधिकारिक DOFE लिंकहरू मार्फत।
