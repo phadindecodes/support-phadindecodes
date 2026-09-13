@@ -274,7 +274,7 @@ export default function App() {
       setLoginError('');
       setToast('एडमिन लगइन सफल भयो!');
     } else {
-      setLoginError('पासवर्ड गलत छ। Hint: phadin2026');
+      setLoginError('पासवर्ड गलत छ। Hint: barbad');
     }
   };
   const handleLogout = () => {
