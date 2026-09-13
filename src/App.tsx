@@ -139,7 +139,7 @@ const faqs = [
   { q: 'स्वीकृति आउन कति समय लाग्छ?', a: 'सबै कागजात ठीक भएमा व्यक्तिगत श्रम स्वीकृति १-२ कार्य दिन भित्र आउँछ। संस्थागत (म्यानपावर मार्फत) को हकमा म्यानपावरले प्रक्रिया मिलाउँछ।' },
   { q: 'लट नम्बर किन जाँच्ने?', a: 'लट नम्बरले म्यानपावर कम्पनीले पाएको पूर्व स्वीकृतिको आधिकारिकता देखाउँछ। लट नम्बर जाँच गरेर ठगीबाट जोगिन सकिन्छ।' },
   { q: 'ठगी भएमा उजुरी कसरी गर्ने?', a: 'ujuri.dofe.gov.np मा गएर अनलाइन उजुरी दर्ता गर्न सक्नुहुन्छ। यो DOFE को आधिकारिक उजुरी पोर्टल हो र निःशुल्क छ।' },
-  { q: 'के यो आधिकारिक सरकारी वेबसाइट हो?', a: 'होइन। यो PhadindEcodes द्वारा बनाइएको सहजीकरण पोर्टल हो। सबै डाटा DOFE कै आधिकारिक साइटबाट आउँछ।' }
+  { q: 'के यो आधिकारिक सरकारी वेबसाइट हो?', a: 'होइन। यो PhadinDecodes द्वारा बनाइएको सहजीकरण पोर्टल हो। सबै डाटा DOFE कै आधिकारिक साइटबाट आउँछ।' }
 ];
 
 export default function App() {
@@ -323,7 +323,7 @@ export default function App() {
           <div className="w-full max-w-[420px] rounded-[20px] bg-white border border-slate-200 shadow-[0_20px_60px_-20px_rgba(0,0,0,0.2)] p-6 md:p-8">
             <div className="flex items-center gap-3 mb-6">
               <div className="w-10 h-10 rounded-[12px] bg-[#0f3b82] flex items-center justify-center text-white font-bold">P</div>
-              <div><div className="font-bold text-[16px]">PhadindEcodes</div><div className="text-[11px] text-slate-500">support.phadindecodes.com/admin</div></div>
+              <div><div className="font-bold text-[16px]">PhadinDecodes</div><div className="text-[11px] text-slate-500">support.phadindecodes.com/admin</div></div>
             </div>
             <h1 className="text-[22px] font-bold flex items-center gap-2"><Lock className="w-5 h-5 text-[#0f3b82]"/> एडमिन लगइन <span className="text-[11px] font-medium text-slate-400 ml-1">Admin Login</span></h1>
             <p className="text-[13px] text-slate-600 mt-2 leading-[1.6]">अपडेट व्यवस्थापन गर्न लगइन गर्नुहोस्। </p>
@@ -515,7 +515,7 @@ export default function App() {
               <div className="flex items-center gap-2">
                 <span className="font-bold text-[17px] tracking-tight text-slate-900">Support</span>
                 <span className="text-slate-300">|</span>
-                <span className="font-bold text-[17px] tracking-tight text-[#0f3b82]">PhadindEcodes</span>
+                <span className="font-bold text-[17px] tracking-tight text-[#0f3b82]">PhadinDecodes</span>
                 <span className="ml-1 px-1.5 py-0.5 rounded-full bg-orange-500 text-white text-[9px] font-bold tracking-widest">V2</span>
               </div>
               <div className="text-[10px] font-medium tracking-widest text-slate-500 uppercase">support.phadindecodes.com</div>
@@ -785,7 +785,7 @@ export default function App() {
       <footer id="contact" className="mt-8 border-t bg-white">
         <div className="max-w-[1180px] mx-auto px-4 md:px-6 py-10 grid md:grid-cols-[1.3fr_0.7fr_0.8fr] gap-8">
           <div>
-            <div className="flex items-center gap-3"><div className="w-9 h-9 rounded-[10px] bg-[#0f3b82] flex items-center justify-center text-white font-bold">P</div><div className="font-bold tracking-tight">Support | PhadindEcodes <span className="ml-2 text-[10px] px-2 py-0.5 rounded-full bg-orange-500 text-white">V2 • Admin Enabled</span></div></div>
+            <div className="flex items-center gap-3"><div className="w-9 h-9 rounded-[10px] bg-[#0f3b82] flex items-center justify-center text-white font-bold">P</div><div className="font-bold tracking-tight">Support | PhadinDecodes <span className="ml-2 text-[10px] px-2 py-0.5 rounded-full bg-orange-500 text-white">V2 • Admin Enabled</span></div></div>
             <p className="mt-3 text-[12px] leading-[1.7] text-slate-600 max-w-[420px]">हामी वैदेशिक रोजगारीमा जाने नेपाली दाजुभाइ दिदीबहिनीहरूलाई आधिकारिक DOFE सेवाहरू सजिलै बुझ्न र प्रयोग गर्न मद्दत गर्छौं। नयाँ कानुन र माग अब दैनिक अपडेट।</p>
             <div className="mt-4 flex flex-wrap gap-2">
               <a href="https://foreignjob.dofe.gov.np" target="_blank" rel="noopener" className="text-[11px] px-3 py-1.5 rounded-full bg-slate-900 text-white inline-flex items-center gap-1.5"><ExternalLink className="w-3 h-3"/> DOFE Official</a>
@@ -817,7 +817,7 @@ export default function App() {
         </div>
         <div className="border-t">
           <div className="max-w-[1180px] mx-auto px-4 md:px-6 py-4 flex flex-col md:flex-row items-center justify-between gap-2 text-[11px] text-slate-500">
-            <span>© {new Date().getFullYear()} PhadindEcodes — सबै अधिकार सुरक्षित। V2 with Admin Panel.</span>
+            <span>© {new Date().getFullYear()} PhadinDecodes — सबै अधिकार सुरक्षित। V2 with Admin Panel.</span>
             <span className="inline-flex items-center gap-2">
               <span className="px-2 py-0.5 rounded-full bg-slate-100 border text-[10px]">नेपाली भाषा</span>
               <span className="px-2 py-0.5 rounded-full bg-slate-100 border text-[10px]">DOFE Verified Links</span>
@@ -852,7 +852,7 @@ export default function App() {
                   <ExternalLink className="w-4 h-4"/> सम्बन्धित लिंक / PDF खोल्नुहोस्
                 </a>
               )}
-              <div className="mt-4 text-[11px] text-slate-400 text-center">यो सूचना PhadindEcodes द्वारा व्यवस्थित — आधिकारिक पुष्टि DOFE मा गर्नुहोस्</div>
+              <div className="mt-4 text-[11px] text-slate-400 text-center">यो सूचना PhadinDecodes द्वारा व्यवस्थित — आधिकारिक पुष्टि DOFE मा गर्नुहोस्</div>
             </div>
           </div>
         </div>
