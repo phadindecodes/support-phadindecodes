@@ -326,12 +326,12 @@ export default function App() {
               <div><div className="font-bold text-[16px]">PhadindEcodes</div><div className="text-[11px] text-slate-500">support.phadindecodes.com/admin</div></div>
             </div>
             <h1 className="text-[22px] font-bold flex items-center gap-2"><Lock className="w-5 h-5 text-[#0f3b82]"/> एडमिन लगइन <span className="text-[11px] font-medium text-slate-400 ml-1">Admin Login</span></h1>
-            <p className="text-[13px] text-slate-600 mt-2 leading-[1.6]">अपडेट व्यवस्थापन गर्न लगइन गर्नुहोस्। यो प्यानलले localStorage प्रयोग गर्छ।</p>
+            <p className="text-[13px] text-slate-600 mt-2 leading-[1.6]">अपडेट व्यवस्थापन गर्न लगइन गर्नुहोस्। </p>
             <div className="mt-6 space-y-3">
               <label className="text-[12px] font-semibold">पासवर्ड (Password) *</label>
               <input type="password" value={loginPwd} onChange={e=>setLoginPwd(e.target.value)} onKeyDown={e=>e.key==='Enter' && handleLogin()} placeholder="पासवर्ड लेख्नुहोस्" className="w-full rounded-[12px] border border-slate-200 px-4 py-3 text-[14px] focus:ring-2 focus:ring-[#0f3b82] outline-none"/>
               {loginError && <div className="text-[12px] text-red-600 bg-red-50 border border-red-200 rounded-[10px] p-2.5">{loginError}</div>}
-              <div className="text-[11px] text-slate-500 bg-amber-50 border border-amber-200 rounded-[10px] p-2.5 flex gap-2"><AlertTriangle className="w-4 h-4 text-amber-600 shrink-0"/> <span>Hint: default password <b>phadin2026</b> हो — .env मा परिवर्तन गर्न सकिन्छ।</span></div>
+              <div className="text-[11px] text-slate-500 bg-amber-50 border border-amber-200 rounded-[10px] p-2.5 flex gap-2"><AlertTriangle className="w-4 h-4 text-amber-600 shrink-0"/> </div>
               <button onClick={handleLogin} className="w-full rounded-full bg-[#0f3b82] text-white py-3 text-[14px] font-bold hover:bg-slate-900 transition flex items-center justify-center gap-2"><ShieldCheck className="w-4 h-4"/> लगइन गर्नुहोस्</button>
               <button onClick={()=>{ window.location.hash=''; }} className="w-full rounded-full bg-white border py-2.5 text-[13px] font-medium hover:bg-slate-50">← पब्लिक साइटमा फर्कनुहोस्</button>
             </div>
@@ -503,7 +503,7 @@ export default function App() {
       <div className="bg-slate-900 text-[11px] md:text-xs text-slate-300 py-2 px-4 text-center tracking-wide">
         <span className="inline-flex items-center gap-1.5">
           <AlertTriangle className="w-3.5 h-3.5 text-amber-400" />
-          यो DOFE को आधिकारिक साइट होइन — आधिकारिक जानकारीको लागि <a href="https://foreignjob.dofe.gov.np" target="_blank" rel="noopener" className="underline text-white hover:text-amber-300">foreignjob.dofe.gov.np</a> मा जानुहोस् • V2 Admin Enabled
+          यो DOFE को आधिकारिक साइट होइन — आधिकारिक जानकारीको लागि <a href="https://dofe.gov.np" target="_blank" rel="noopener" className="underline text-white hover:text-amber-300">dofe.gov.np</a> मा जानुहोस् •
         </span>
       </div>
 
@@ -559,7 +559,7 @@ export default function App() {
           <div className="max-w-[760px]">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white border border-slate-200 shadow-sm text-[11px] font-semibold tracking-wide mb-5">
               <ShieldCheck className="w-4 h-4 text-[#0f3b82]" />
-              <span>आधिकारिक DOFE लिंकहरू मार्फत — सुरक्षित र भरपर्दो • अब एडमिन अपडेट सहित</span>
+              <span>आधिकारिक DOFE लिंकहरू मार्फत — सुरक्षित र भरपर्दो </span>
               <span className="hidden md:inline-flex ml-2 px-2 py-0.5 rounded-full bg-slate-900 text-white text-[10px]">VERIFIED LINKS V2</span>
             </div>
             <h1 className="text-[32px] md:text-[52px] font-bold leading-[1.05] tracking-[-0.02em] text-slate-900">
