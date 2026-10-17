@@ -220,8 +220,10 @@ export default function App() {
               <p className="mt-2 text-[13px] text-[#334155]">SSF ID पासवर्ड बिर्सिनुभयो? Reset Password मा क्लिक, Username मा SSF ID, Email मा लिंक आउँछ।</p>
               <ul className="mt-3 text-[12px] text-[#475569] list-disc ml-4 space-y-1">
                 <li>sosys.ssf.gov.np खोल्नुहोस्</li>
+                <li>वैदेशिक रोजगारी मेनुमा जानुस</li>
                 <li>Forgot Password मा क्लिक</li>
-                <li>SSF ID र दर्ता इमेल राख्नुहोस्</li>
+                <li>SSF ID, पासपोर्ट नं, जन्म मिति वि.सं मा र क्याप्चा राख्नुहोस्</li>
+                <li>Validate गर्नुहोस</li>
               </ul>
               <a href={SSF_PORTAL} target="_blank" rel="noopener" className="mt-5 inline-flex h-11 px-6 rounded-full bg-[#16a34a] text-white text-[14px] font-bold">पासवर्ड रिसेट गर्नुहोस् <ExternalLink className="w-4 h-4 ml-2" /></a>
             </div>
@@ -229,7 +231,7 @@ export default function App() {
               <div className="w-11 h-11 rounded-xl bg-[#0f1a3a] text-white flex items-center justify-center"><Briefcase className="w-6 h-6" /></div>
               <h3 className="mt-4 font-bold">SSF सुविधा र दाबी</h3>
               <p className="mt-2 text-[13px] text-[#64748b]">औषधि उपचार, दुर्घटना, प्रसूति र पेन्सन सुविधाको जानकारी।</p>
-              <a href={SSF_INFO} target="_blank" rel="noopener" className="mt-5 inline-flex h-10 px-5 rounded-full bg-white border text-[13px] font-semibold">विवरण हेर्नुहोस् <ExternalLink className="w-4 h-4 ml-2" /></a>
+              <a href= "https://sosys.ssf.gov.np/Modules/COLLECTION/MigrantResetPassword.aspx" target="_blank" rel="noopener" className="mt-5 inline-flex h-10 px-5 rounded-full bg-white border text-[13px] font-semibold">विवरण हेर्नुहोस् <ExternalLink className="w-4 h-4 ml-2" /></a>
             </div>
           </div>
         </div>
@@ -239,7 +241,7 @@ export default function App() {
         <h2 className="text-[24px] md:text-[30px] font-bold text-[#0f1a3a]">वैदेशिक रोजगार बोर्ड - कल्याणकारी कार्यहरू</h2>
         <p className="mt-2 text-[14px] text-[#475569]">वैदेशिक रोजगारीमा गएका श्रमिक र परिवारका लागि बोर्डले प्रदान गर्ने आर्थिक सहायता — <a href={FEB_LINK} target="_blank" rel="noopener" className="underline font-semibold text-[#1e3a8a]">feb.gov.np</a></p>
         <div className="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
-          <div className="rounded-[16px] bg-white border p-5"><div className="w-10 h-10 rounded-xl bg-[#1e3a8a] text-white flex items-center justify-center"><Building2 className="w-5 h-5" /></div><h3 className="mt-3 font-bold text-[15px]">मृतक सहायता ७ लाख</h3><p className="mt-1 text-[13px] text-[#64748b]">रोजगारीका क्रममा मृत्यु भएमा परिवारलाई आर्थिक सहायता।</p><a href={FEB_LINK} target="_blank" rel="noopener" className="mt-4 inline-flex h-9 px-4 rounded-full bg-[#0f1a3a] text-white text-[12px] font-semibold">विवरण हेर्नुहोस्</a></div>
+          <div className="rounded-[16px] bg-white border p-5"><div className="w-10 h-10 rounded-xl bg-[#1e3a8a] text-white flex items-center justify-center"><Building2 className="w-5 h-5" /></div><h3 className="mt-3 font-bold text-[15px]">मृतक सहायता रू १० लाख</h3><p className="mt-1 text-[13px] text-[#64748b]">श्रम स्विकृति लिएर गएका र वैध भएमा परिवारलाई आर्थिक सहायता।</p><a href={FEB_LINK} target="_blank" rel="noopener" className="mt-4 inline-flex h-9 px-4 rounded-full bg-[#0f1a3a] text-white text-[12px] font-semibold">विवरण हेर्नुहोस्</a></div>
           <div className="rounded-[16px] bg-white border p-5"><div className="w-10 h-10 rounded-xl bg-[#dc2626] text-white flex items-center justify-center"><HeartPulse className="w-5 h-5" /></div><h3 className="mt-3 font-bold text-[15px]">अंगभंग सहायता</h3><p className="mt-1 text-[13px] text-[#64748b]">अंगभंग वा कडा बिरामीमा उपचार खर्च सहायता।</p><a href={FEB_LINK} target="_blank" rel="noopener" className="mt-4 inline-flex h-9 px-4 rounded-full bg-[#0f1a3a] text-white text-[12px] font-semibold">विवरण हेर्नुहोस्</a></div>
           <div className="rounded-[16px] bg-white border p-5"><div className="w-10 h-10 rounded-xl bg-[#f97316] text-white flex items-center justify-center"><FileText className="w-5 h-5" /></div><h3 className="mt-3 font-bold text-[15px]">छात्रवृत्ति</h3><p className="mt-1 text-[13px] text-[#64748b]">श्रमिकका छोराछोरीका लागि वार्षिक छात्रवृत्ति कार्यक्रम।</p><a href={FEB_LINK} target="_blank" rel="noopener" className="mt-4 inline-flex h-9 px-4 rounded-full bg-[#0f1a3a] text-white text-[12px] font-semibold">विवरण हेर्नुहोस्</a></div>
           <div className="rounded-[16px] bg-white border p-5"><div className="w-10 h-10 rounded-xl bg-[#0f1a3a] text-white flex items-center justify-center"><Shield className="w-5 h-5" /></div><h3 className="mt-3 font-bold text-[15px]">उद्धार र कानुनी सहायता</h3><p className="mt-1 text-[13px] text-[#64748b]">अलपत्र, जेल वा समस्या परेका श्रमिकको उद्धार।</p><a href={FEB_LINK} target="_blank" rel="noopener" className="mt-4 inline-flex h-9 px-4 rounded-full bg-[#0f1a3a] text-white text-[12px] font-semibold">विवरण हेर्नुहोस्</a></div>
