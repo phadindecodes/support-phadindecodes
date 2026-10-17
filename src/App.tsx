@@ -35,6 +35,7 @@ const SOCIAL_FB = typeof atob !== 'undefined' ? atob(FB_B64) : 'https://www.face
 const SOCIAL_LI = typeof atob !== 'undefined' ? atob(LI_B64) : 'https://www.linkedin.com/in/phanindradahal/';
 const SOCIAL_WA = typeof atob !== 'undefined' ? atob(WA_B64) : 'https://wa.me/9779852659333';
 const SSF_PORTAL = typeof atob !== 'undefined' ? atob(SSF_PORTAL_B64) : 'https://sosys.ssf.gov.np/';
+const SSF_PORTALP = typeof atob !== 'undefined' ? atob(SSF_PORTAL_B64) : 'https://sosys.ssf.gov.np/Modules/COLLECTION/MigrantResetPassword.aspx';
 const SSF_INFO = typeof atob !== 'undefined' ? atob(SSF_INFO_B64) : 'https://www.ssf.gov.np';
 const FEB_LINK = typeof atob !== 'undefined' ? atob(FEB_B64) : 'https://feb.gov.np/';
 const DOFE_LINK = typeof atob !== 'undefined' ? atob(DOFE_B64) : 'https://dofe.gov.np';
