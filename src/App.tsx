@@ -41,8 +41,8 @@ const DOFE_LINK = typeof atob !== 'undefined' ? atob(DOFE_B64) : 'https://dofe.g
 
 const LINKS = {
   shram: 'https://foreignjob.dofe.gov.np/',
-  jobs: 'https://foreignjob.dofe.gov.np/',
-  lot: 'https://foreignjob.dofe.gov.np/',
+  jobs: 'https://foreignjob.dofe.gov.np/Home/Index',
+  lot: 'https://foreignjob.dofe.gov.np/Home/PrePermissionDetail',
   ujuri: 'https://ujuri.dofe.gov.np/',
 };
 
