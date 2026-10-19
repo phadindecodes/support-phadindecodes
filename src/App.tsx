@@ -226,13 +226,13 @@ export default function App() {
                 <li>SSF ID, पासपोर्ट नं, जन्म मिति वि.सं मा र क्याप्चा राख्नुहोस्</li>
                 <li>Validate गर्नुहोस</li>
               </ul>
-              <a href={SSF_PORTAL} target="_blank" rel="noopener" className="mt-5 inline-flex h-11 px-6 rounded-full bg-[#16a34a] text-white text-[14px] font-bold">पासवर्ड रिसेट गर्नुहोस् <ExternalLink className="w-4 h-4 ml-2" /></a>
+              <a href={SSF_PORTALP} target="_blank" rel="noopener" className="mt-5 inline-flex h-11 px-6 rounded-full bg-[#16a34a] text-white text-[14px] font-bold">पासवर्ड रिसेट गर्नुहोस् <ExternalLink className="w-4 h-4 ml-2" /></a>
             </div>
             <div className="rounded-[18px] border bg-[#f8fafc] p-6">
               <div className="w-11 h-11 rounded-xl bg-[#0f1a3a] text-white flex items-center justify-center"><Briefcase className="w-6 h-6" /></div>
               <h3 className="mt-4 font-bold">SSF सुविधा र दाबी</h3>
               <p className="mt-2 text-[13px] text-[#64748b]">औषधि उपचार, दुर्घटना, प्रसूति र पेन्सन सुविधाको जानकारी।</p>
-              <a href= "https://sosys.ssf.gov.np/Modules/COLLECTION/MigrantResetPassword.aspx" target="_blank" rel="noopener" className="mt-5 inline-flex h-10 px-5 rounded-full bg-white border text-[13px] font-semibold">विवरण हेर्नुहोस् <ExternalLink className="w-4 h-4 ml-2" /></a>
+              <a href= "https://ssf.gov.np/services/arrangements-related-to-discounts-and-concessions-received-by-workers-in-foreign-employment" target="_blank" rel="noopener" className="mt-5 inline-flex h-10 px-5 rounded-full bg-white border text-[13px] font-semibold">विवरण हेर्नुहोस् <ExternalLink className="w-4 h-4 ml-2" /></a>
             </div>
           </div>
         </div>
